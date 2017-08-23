@@ -1,0 +1,27 @@
+RecordLength        500
+PreTrigger          100 
+BaselineMode        3
+FixedBaseline       3200
+GateOffset          -25
+GateWidth           200 
+
+TriggerThreshold    0 2320
+TriggerThreshold    1 2320
+TriggerThreshold    2 2320
+TriggerThreshold    3 2320
+
+GlobalTriggerThreshold 80
+
+DCoffset            0 30000 
+DCoffset            1 30000 
+DCoffset            2 30000 
+DCoffset            3 30000 
+ChargeSensitivity   0
+NevAggr             1 
+GroupMask           F
+ChannelTriggerMask  0000FFFF
+SaveList            1
+
+PrintParameters     1
+
+SignalPolarity      0
